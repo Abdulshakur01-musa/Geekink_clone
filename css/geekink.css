@@ -1,0 +1,84 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f9fcfd;
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+}
+
+.internship-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.internship-section h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 1.1em;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px 20px;
+  width: 250px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.card p {
+  color: #666;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.fa-code {
+  font-size: 2em;
+  color: #2d464e;
+}
+.fa-users {
+  font-size: 2em;
+  color: #45ce49; 
+}
+.fa-trophy {
+  font-size: 2em;
+  color: #9b59b6;
+}
+.fa-regular.fa-globe {
+  font-size: 2em;
+  color: #e67e22;
+}
